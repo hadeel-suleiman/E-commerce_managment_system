@@ -55,18 +55,6 @@ To run the seeder, follow these steps:
 
 ---
 
-## Installation
-
-### Prerequisites
-
-Ensure you have the following installed on your machine:
-- **XAMPP**: For running MySQL and Apache servers locally.
-- **Composer**: For PHP dependency management.
-- **PHP**: Required for running Laravel.
-- **MySQL**: Database for the project
-- **Postman**: Required for testing the requestes.
-
-
 
 ### Steps to Run the Project
 
@@ -106,8 +94,3 @@ This repository contains a collection of APIs designed for various functionaliti
 - Reporting: Endpoints for generating reports based on user data.
 **link of collection**
 https://gist.github.com/hadeel-suleiman/09a5c8035edb29fb0ad944b9fa4beabf
-
-
-## Conclusion
-
-This e-commerce management system provides a robust foundation for managing users, products, categories, and orders in a Laravel application. The use of Laravel Sanctum for API authentication ensures secure access to resources while allowing for easy management of roles and permissions.
