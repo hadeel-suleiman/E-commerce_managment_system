@@ -10,9 +10,7 @@ This project is a **E-Commerce Management System** built with **Laravel 10**. Th
 - **Category Management:** Products can belong to multiple categories, and categories can contain multiple products.
 - **Order Management:** Customers can place orders for products.
 - **API Endpoints:** Provides endpoints for authentication, product listing, and order placement.
-- **Middleware Protection:** Ensures that only admin users can access the admin dashboard.
-
-## Middleware: 
+**Middleware**: 
 A simple middleware will be created to restrict access to the admin dashboard so that only users with the Admin role can access it.
 
 ## Seeders
@@ -68,16 +66,7 @@ Ensure you have the following installed on your machine:
 - **MySQL**: Database for the project
 - **Postman**: Required for testing the requestes.
 
-### Laravel APIs Collection
 
-This repository contains a collection of APIs designed for various functionalities, including:
-
-- User Authentication: Endpoints for user registration, login, and password management.
-- Data Management: APIs for creating, reading, updating, and deleting **Order**.
-- Data Management: APIs for reading, showing  **Product**.
-- Reporting: Endpoints for generating reports based on user data.
-**link of collection**
-https://gist.github.com/hadeel-suleiman/09a5c8035edb29fb0ad944b9fa4beabf
 
 ### Steps to Run the Project
 
@@ -106,8 +95,18 @@ https://gist.github.com/hadeel-suleiman/09a5c8035edb29fb0ad944b9fa4beabf
 8. Run the Application
     ```bash
     php artisan serve
-9. Interact with the API and test the various endpoints via Postman collection 
-    Get the collection from here: https://documenter.getpostman.com/view/34424205/2sAXjF9FSq
+
+9. Laravel APIs Collection
+
+This repository contains a collection of APIs designed for various functionalities, including:
+
+- User Authentication: Endpoints for user registration, login, and password management.
+- Data Management: APIs for creating, reading, updating, and deleting **Order**.
+- Data Management: APIs for reading, showing  **Product**.
+- Reporting: Endpoints for generating reports based on user data.
+**link of collection**
+https://gist.github.com/hadeel-suleiman/09a5c8035edb29fb0ad944b9fa4beabf
+
 
 ## Conclusion
 
